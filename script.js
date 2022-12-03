@@ -30,4 +30,6 @@ document.getElementById('search').addEventListener('click', async function() {
 // hide results
 document.getElementById('clear').addEventListener('click', function() {
   document.getElementById('resultsSection').className = "hidden"
+  document.getElementById('chemical').value = ""
+  document.getElementById('manufacturer').value = ""
 })
