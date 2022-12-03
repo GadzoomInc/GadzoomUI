@@ -1,0 +1,56 @@
+html {
+  background-color: darkgrey;
+}
+
+header {
+  width: 100%;
+  margin: auto;
+  padding: 0 auto 0 auto;
+  text-align: center;
+}
+
+img {
+  background-color: white;
+  border: 5px solid rgb(34, 34, 34);
+  border-radius: 5px;
+  padding: 0;
+}
+
+.search, .results {
+  width: 100%;
+  margin: auto;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+p, h3 {
+  font-weight: bold;
+  color: rgb(34, 34, 34);
+  font-size: large;
+}
+
+hr {
+  color: rgb(138, 138, 138);
+}
+
+#resultsSection {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+table {
+  border-spacing: 30px;
+  margin: auto;
+}
+
+th, td {
+  margin: 20px;
+  padding: 5px 20px 50x 20px;
+  /* border: 1px solid rgb(138, 138, 138); */
+}

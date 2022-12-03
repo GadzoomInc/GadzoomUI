@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header>
+    <img src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/hztpohd9alvzfmzldazf"/>
+  </header>
+  <div class="search">
+    <p>Chemical Name</p>
+    <input type="text" id="chemical"></input>
+    <p>Chemical Manufacturer</p>
+    <input type="text" id="manufacturer"/>
+    <br>
+    <br>
+    <button id="search">Search</button>
+    <button id="clear">Clear</button>
+  </div>
+  <hr>
+  <div id="resultsSection" class="hidden">
+    <h3>Results</h3>
+    <table id="resultsTable">
+      <tr>
+        <th>Chemical</th>
+        <th>Manufacturer</th>
+        <th>SDS Link</th>
+      </tr>
+      <tr>
+        <td>Arabic Gum</td>
+        <td>Lab Alley LLC</td>
+        <td>https://blah.com/adakjbfksajfhsiuhfsihfksfskafdjhsiaufhksdh</td>
+      </tr>
+
+    </table>
+  </div>
+</body>
+<script src="./node_modules/axios/dist/axios.min.js"></script>
+<script type="text/javascript" src="./script.js"></script>
+</html>
